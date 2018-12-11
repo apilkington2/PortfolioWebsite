@@ -4,6 +4,12 @@ p { font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-style: norma
 blockquote { font-family: Verdana, Geneva, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
 pre { font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;}
 
+#AboutMeBanner {
+  width: 32%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 a:link { color:#d0d0d0;}
 * {
   outline: none;
@@ -74,15 +80,6 @@ header p {
 
 #text {
   color: white;
-}
-
-#flex-practice {
-  display: flex;
-  align-items: flex-start;
-}
-
-#flex-practice > .flex-item {
-  flex: auto;
 }
 
 footer p,
